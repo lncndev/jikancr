@@ -1,6 +1,5 @@
 # jikancr
-
-TODO: Write a description here
+Crystal wrapper for the unofficial MAL API Jikan
 
 ## Installation
 
@@ -9,7 +8,7 @@ TODO: Write a description here
    ```yaml
    dependencies:
      jikancr:
-       github: your-github-user/jikancr
+       github: onoderaproject/jikancr
    ```
 
 2. Run `shards install`
@@ -18,17 +17,13 @@ TODO: Write a description here
 
 ```crystal
 require "jikancr"
+
+Jikan.anime("<ID HERE>")["title"]
 ```
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/jikancr/fork>)
+1. Fork it (<https://github.com/onoderaproject/jikancr/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -36,4 +31,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-name-here](https://github.com/your-github-user) - creator and maintainer
+- [lncndev](https://gitlab.com/lncn) - creator and maintainer
