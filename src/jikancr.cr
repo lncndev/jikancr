@@ -5,12 +5,12 @@ module Jikan
 
   def self.manga(id)
     response = HTTP::Client.get("https://api.jikan.moe/v3/manga/" + id.to_s)
-    return response.body
+    return JSON.parse(response.body)
   end
 
   def self.anime(id)
     response = HTTP::Client.get("https://api.jikan.moe/v3/anime/" + id.to_s)
-    return response.body
+    return JSON.parse(response.body)
   end
 
   def self.search(type, query, page = 1, limit = 1)
