@@ -2,8 +2,8 @@ name: jikancr
 version: 0.1.0
 
 authors:
-  - your-name-here <your-email-here>
+  - Lincoln Williams <lincoln@onodb.org>
 
-crystal: 1.1.1
+crystal: 1.2.0
 
 license: MIT
